@@ -1,0 +1,184 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.head{
+    justify-content: space-between;
+    display:flex;
+    position: sticky;
+    top:0px;
+    background-color: #fff;
+}
+.left-bar{
+    display: flex;
+}
+#menu{
+    padding:1rem 0 0 2rem;
+}
+.img{
+    width:120px;
+    height:60px;
+    padding-left:10px;
+}
+.srch{
+    display:flex;
+    margin-top:1rem;
+    margin-left:2rem;
+}
+#srch{
+    width:35rem;
+    height:40px;
+    padding-left:20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.sbtn{
+    height:40px;
+    width:50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#mic{
+    margin:0.5rem 0 0 1rem;
+    font-size:1.6rem;
+}
+.right-bar{
+    display:flex;
+    margin-top:1rem;
+    padding-right:3rem;
+}
+#create{
+    padding-right:20px;
+    font-size:2rem;
+}
+#notify{
+    padding-right:20px;
+    font-size:2rem;
+}
+#acnt{
+    padding-right:50px;
+    font-size:2rem;
+}
+.containbody{
+    display:flex;
+    justify-content: space-between;
+}
+.menulist{
+    display: grid;
+}
+.a{
+    width:12rem;
+    text-decoration: none;
+    color:#000;
+    display:flex;
+    padding:10px 0 10px 20px;
+    margin-left:15px;
+    border-radius: 5px;
+}
+.left-list{
+    padding-top: 5px;
+    padding-left:20px;
+    font-size: 1rem;
+}
+.h6{
+    font-size: 1.3rem;
+    padding:1rem;
+}
+.a:hover{
+    background-color: beige;
+}
+.body-right{
+
+    width:100rem;
+    height: 40px;
+}
+.ch-list{
+    display: flex;
+    white-space: nowrap;
+}
+.list-a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 10px 5px 10px;
+    margin:0 10px 0 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 233, 233);
+}
+.list-a:hover{
+    background-color: #000;
+    color:#fff
+}
+.videos1{
+    padding:20px 0 0 40px;
+    display:grid;
+}
+.videos{
+    display:flex;
+}
+.video-img1{
+    width:310px;
+    height:180px;
+    margin: 0 0.5rem 0 0.5rem;
+    border-radius: 10px;
+}
+.video-img2{
+    width:300px;
+    height:180px;
+    margin-top:2rem;
+    margin-left:1rem;
+    border-radius: 10px;
+}
+.pics{
+    display: grid;
+}
+#pic1{
+    margin: 0.5rem 0 0 1rem;
+    font-size: 30px;
+    display: flex;
+}
+.title{
+    display: flex;
+}
+.h4{
+    padding:0.7rem 0 0 10px;
+    font-size: 15px;
+}
+.text{
+    padding: 5px 0 0 10px;
+    font-size: 10px;
+}
+/*
+<div>
+                <div class="videos">
+                    <div class="pics">
+                        <img src="pic1.png" class="video-img">
+                        <span class="material-symbols-outlined" id="pic1">
+                            account_circle
+                        </span><h6>Top 10 worst indian ads</h6>
+                    </div>
+                </div>
+                <div>
+                    <img src="pic2.png" class="video-img">
+                </div>
+                <div>
+                    <img src="pic3.png" class="video-img">
+                </div>
+                    </div>
+                </div>
+            </div>
+
+/*
+<div class="list">
+            <li>All</li>
+            <li>Mixes</li>
+            <li>HTML</li>
+            <li>Music</li>
+            <li>Gaming</li>
+            <li>Animated films</li>
+            <li>Live</li>
+            <li>Comedy</li>
+            <li>Cooking shows</li>
+            <li>Indian pop music</li>
+            <li>Bollywood Music</li>
+        </div>
+        */
